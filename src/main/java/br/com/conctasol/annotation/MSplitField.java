@@ -9,13 +9,8 @@ import java.lang.annotation.Target;
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ java.lang.annotation.ElementType.FIELD })
-public @interface MField {
+public @interface MSplitField {
 	
-	public String type();
-	public String name();
-	public String format() default "";
-	public boolean index() default true;
-	
-	public int start() default -1;
-	public int size() default -1;
+	public MField[] value();
+
 }
