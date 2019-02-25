@@ -1,4 +1,6 @@
 br/com/conctasol/annotation/MIndex.class
 br/com/conctasol/annotation/Keyword.class
+br/com/conctasol/annotation/MSplitField.class
+br/com/conctasol/annotation/Fielddata.class
 br/com/conctasol/annotation/util/IndiceUtil.class
 br/com/conctasol/annotation/MField.class
