@@ -11,5 +11,5 @@ import java.lang.annotation.Target;
 @Target({ java.lang.annotation.ElementType.TYPE })
 public @interface MIndex {
 	
-	public String name();
+	public String value();
 }
